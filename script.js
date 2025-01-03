@@ -18,6 +18,7 @@ const calculate = (btnValue)=>{
         if(output === "" && specialChars.includes(btnValue)) return;
         output += btnValue;
     }
+    console.log("hello this is script file from js and w e")
     display.value = output;
     
 };
